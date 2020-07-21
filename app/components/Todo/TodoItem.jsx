@@ -54,7 +54,7 @@ export default (props) => {
             </IconButton>
           </Grid>
 
-          <Grid xs zeroMinWidth alignItems="center" container>
+          <Grid item xs zeroMinWidth alignItems="center" container>
             <TextField
               fullWidth
               ref={textField}

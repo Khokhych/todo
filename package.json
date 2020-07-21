@@ -6,12 +6,12 @@
     "homepage": "https://github.com/Khokhych",
     "scripts": {
         "dev": "webpack-dev-server --hot --open, eslint",
-        "build": "webpack --hot"
+        "build": "webpack --hot",
+        "server": "node server.js"
     },
     "dependencies": {
         "@material-ui/core": "^4.11.0",
         "@material-ui/icons": "^4.9.1",
-        "babel": "^6.23.0",
         "eslint-watch": "^7.0.0",
         "express": "^4.17.1",
         "node-sass": "^4.14.1",
@@ -20,13 +20,14 @@
         "react-redux": "^7.2.0",
         "redux": "^4.0.5",
         "redux-devtools-extension": "^2.13.8",
-        "redux-thunk": "^2.3.0",
         "style-loader": "^1.2.1"
     },
     "devDependencies": {
         "@babel/core": "^7.1.2",
         "@babel/preset-env": "^7.10.4",
         "@babel/preset-react": "^7.0.0",
+        "babel": "^6.23.0",
+        "babel-core": "^6.26.3",
         "babel-loader": "^8.0.0",
         "babel-polyfill": "^6.26.0",
         "css-loader": "^3.6.0",

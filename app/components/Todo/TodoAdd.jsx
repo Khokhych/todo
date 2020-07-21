@@ -32,7 +32,7 @@ export default () => {
           container
           wrap="nowrap"
         >
-          <Grid xs zeroMinWidth alignItems="center" container>
+          <Grid item xs zeroMinWidth alignItems="center" container>
             <Box width="100%" pl={6}>
               <TextField
                 fullWidth

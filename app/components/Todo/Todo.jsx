@@ -7,10 +7,10 @@ import TodoItem from './TodoItem';
 export default () => {
   const todo = useSelector((state) => state.todo);
   return (
-    <Box mb={6}>
+    <Box mt={3} mb={3}>
 
       <Box mb={3}>
-        <Typography variant="h3">Your to do list</Typography>
+        <Typography variant="h4">Your to do list</Typography>
       </Box>
 
       <TodoAdd />

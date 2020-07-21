@@ -1,5 +1,5 @@
 import React from 'react';
-// import './sass/app.sass';
+import './sass/app.sass';
 import { Container } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import Todo from './components/Todo/Todo';
